@@ -2,22 +2,26 @@
 
 # Rwxzxy
 
-Research projects in **robot learning, world models, and generative AI**.
+具身智能 · 机器人策略 · 世界模型
 
-[Email](mailto:2728836780@qq.com) · [GitHub](https://github.com/Rwxzxy)
+[联系邮箱](mailto:2728836780@qq.com) · [GitHub](https://github.com/Rwxzxy)
 
 </div>
 
-## Selected work
+## 项目展示
 
-![Three project comparisons: robot-policy success, traffic-light control success, and delayed-memory learning AUC. Each panel uses a separate benchmark.](assets/results-overview.png)
+### 机器人策略推理｜RoboTwin · SmolVLA
 
-<sub>Separate internal evaluations; results across panels are not directly comparable. Research repositories are private while work is in progress.</sub>
+<p align="center"><img src="assets/robot_policy_comparison.gif" width="100%" alt="同一机器人任务的基线失败与改进策略成功对照"></p>
 
-- **Few-step robot-policy inference.** On matched RoboTwin episodes, a frozen SmolVLA policy succeeded in **111/196** episodes with two inference calls, versus **96/196** with uniform two-call sampling. The same comparison included a fixed PC1 schedule at **94/196**.
-- **Predictive representations for control.** In a simulated traffic-light task, control success rose from **35.4%** with standard training to **72.0%**; a separate comparator reached **73.1%**.
-- **Connectome architecture for memory.** In a five-seed delayed-memory test, the real graph reached **0.805** normalized learning AUC versus **0.587** for a degree-preserving rewired graph. This is a task-specific preliminary result.
-- **Image-generation dynamics.** In FLUX.1-dev, changing the prompt stopped changing color–object binding after roughly **4/28** steps, while later states remained sensitive to controlled edits.
-- **Image-to-image prototypes.** Visual comparison experiments on surgical-video frames; no benchmark claim yet.
+同一任务、同一初始条件：基线未完成交接，改进策略完成任务。196 个配对评估回合中，改进策略成功 **111 次**，均匀两步基线成功 **96 次**。
 
-**Contact:** [2728836780@qq.com](mailto:2728836780@qq.com). Brief technical summaries or demos are available on request.
+### PRISM｜信号灯任务中的世界模型
+
+<p align="center"><img src="assets/prism_traffic_light.gif" width="72%" alt="同一信号灯回合中，基线闯红灯，改进模型红灯停车、绿灯通行"></p>
+
+同一环境种子：基线在红灯时继续前进，改进模型会停车并在绿灯时通行。闭环成功率 **72.0%**，标准训练基线为 **35.4%**；强对照为 **73.1%**。
+
+---
+
+项目代码与完整实验记录暂未公开。可通过邮箱联系，获取项目介绍或演示。
