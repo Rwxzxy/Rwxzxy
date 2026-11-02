@@ -49,7 +49,7 @@
 
 <b>72.0%</b> PRISM &nbsp;vs&nbsp; <b>35.4%</b> 标准训练 &nbsp;·&nbsp; 强对照 MotionJEPA <b>73.1%</b>
 
-<p align="center"><img src="assets/prism_traffic_light.gif" width="100%" alt="同一信号灯回合中，基线闯红灯，改进模型红灯停车、绿灯通行"></p>
+<p align="center"><img src="assets/prism_traffic_light.gif" width="72%" alt="同一信号灯回合中，基线闯红灯，改进模型红灯停车、绿灯通行"></p>
 
 同一环境种子下，基线闯红灯，PRISM 红灯停车、绿灯通行。结果汇总自 **3 个世界模型种子 × 3 个策略训练种子**：成功率 **72.0%**，标准训练基线 **35.4%**；强对照 **MotionJEPA 为 73.1%**，高出 1.1 个百分点。
 

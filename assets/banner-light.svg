@@ -25,5 +25,5 @@
   </circle>
   <text x="56" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="1" fill="#1f2328">Rwxzxy</text>
   <rect x="58" y="124" width="44" height="4" rx="2" fill="#2563eb"/>
-  <text x="56" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Noto Sans SC', 'Source Han Sans SC', 'WenQuanYi Micro Hei', Arial, sans-serif" font-size="22" letter-spacing="1" fill="#59636e">具身智能 · 机器人策略 · 世界模型</text>
+  <text x="56" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Noto Sans SC', 'Source Han Sans SC', 'WenQuanYi Micro Hei', Arial, sans-serif" font-size="24" letter-spacing="1" fill="#59636e">具身智能 · 机器人策略 · 世界模型</text>
 </svg>
